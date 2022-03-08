@@ -1,0 +1,53 @@
+.myProfile-container {
+  width: 380px;
+  height: 640px;
+}
+.my-posts-container {
+  list-style: none;
+  list-style-type: none;
+  flex-wrap: wrap;
+  display: flex;
+  width: 400px;
+  margin-left: -33px;
+}
+@media screen and (min-width: 768px) {
+  .myProfile-container {
+    width: 1440px;
+    height: 2085px;
+  }
+  .my-posts-container {
+    width: 1080px;
+  }
+}
+.myStoryImage {
+  width: 64px;
+  height: 64px;
+  border: 2px solid #c7c7cc;
+  box-sizing: border-box;
+  margin-right: 20px;
+  border-radius: 35px;
+}
+@media screen and (min-width: 768px) {
+  .myStoryImage {
+    width: 78px;
+    height: 78px;
+    margin-right: 25px;
+    border-radius: 40px;
+  }
+}
+.my-image {
+  width: 118px;
+  height: 118px;
+}
+.list-item-my-profile {
+  margin: 1px;
+}
+@media screen and (min-width: 768px) {
+  .my-image {
+    width: 330px;
+    height: 330px;
+  }
+  .list-item-my-profile {
+    margin: 5px;
+  }
+}

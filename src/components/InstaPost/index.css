@@ -1,0 +1,46 @@
+.main-container {
+  width: 100%;
+}
+.posts-main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  list-style: none;
+  list-style-type: none;
+}
+.fail-img {
+  text-align: center;
+  margin-top: 25px;
+  width: 22px;
+  height: 19px;
+}
+.fail-retry {
+  background-color: #4094ef;
+  height: 32px;
+  border: none;
+  border-radius: 5px;
+  width: 102px;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+.fail-con {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+.fail-para {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #262626;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300px;
+}
